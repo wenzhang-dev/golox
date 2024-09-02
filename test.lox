@@ -1,0 +1,8 @@
+{
+    var quz = "before";
+    {
+        var quz = "after";
+        print quz;
+    }
+    print quz;
+}
